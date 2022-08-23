@@ -1,0 +1,74 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+body {
+	background: linear-gradient(-45deg,#101010, #141414, #1f1f1f);
+	background-size: 500% 500%;
+	animation: gradient 200s ease infinite;
+}
+
+a {
+    color:deepskyblue;
+}
+
+p {
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+
+    margin: 0px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    color: white;
+    padding-top: 30px;
+}
+
+.mem-block {
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding-top: 30px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-block {
+    width: 90%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        height: 120vh;
+    }
+  }
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
