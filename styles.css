@@ -5,9 +5,9 @@
 }
 
 body {
-	background: linear-gradient(-45deg,#101010, #141414, #1f1f1f);
+	background: linear-gradient(-45deg,#000000, #141414, #1f1f1f);
 	background-size: 500% 500%;
-	animation: gradient 200s ease infinite;
+	animation: gradient 160s ease infinite;
 }
 
 a {
@@ -21,7 +21,7 @@ p {
 
 h1 {
     color: white;
-    font-size: 40px;
+    font-size: 48px;
 
     margin: 0px;
     margin-bottom: -10px;
@@ -35,11 +35,6 @@ h2 {
 .mem-block {
     padding-top: 14px;
     padding-bottom: 10px;
-}
-
-.footer {
-    padding-top: 30px;
-    font-style: italic;
 }
 
 .container {
@@ -58,7 +53,7 @@ h2 {
     .container {
         height: 120vh;
     }
-  }
+}
 
 
 @keyframes gradient {
