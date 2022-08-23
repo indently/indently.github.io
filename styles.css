@@ -24,6 +24,7 @@ h1 {
     font-size: 48px;
 
     margin: 0px;
+    margin-top: 10px;
     margin-bottom: -10px;
 }
 
@@ -53,9 +54,9 @@ h2 {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .container {
-        height: 120vh;
+        height: fit-content;
     }
 }
 
