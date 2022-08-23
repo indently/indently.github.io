@@ -42,6 +42,10 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 100vh;
+
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .text-block {
@@ -68,11 +72,7 @@ h2 {
 	}
 }
 
-* {
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
+
   
 @keyframes fadeInAnimation {
     0% {
