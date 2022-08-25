@@ -4,10 +4,11 @@
     letter-spacing: 1px;
 }
 
+
 body {
-	background: linear-gradient(-45deg,#000000, #141414, #1f1f1f);
+	background: linear-gradient(-45deg,#333, #000);
 	background-size: 500% 500%;
-	animation: gradient 160s ease infinite;
+	animation: gradient 40s ease infinite;
 }
 
 a {
@@ -24,13 +25,21 @@ h1 {
     font-size: 48px;
 
     margin: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: -10px;
 }
 
 h2 {
-    color: white;
+    color: rgb(244, 244, 244);
     padding-top: 30px;
+}
+
+hr {
+    color: white;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 56px;
+    border: white 2px solid;
 }
 
 .mem-block {
@@ -83,3 +92,6 @@ h2 {
         opacity: 1;
      }
 }
+
+
+
