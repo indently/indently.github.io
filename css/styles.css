@@ -53,27 +53,27 @@ p {
     border-radius: 4px;
     color: white;
     text-decoration: none;
-    background-color: rgb(0, 112, 182);
+    border: white 2px solid;
     transition: 250ms;
 }
 
 #button:hover {
     transition: 250ms;
-    background-color: rgb(22, 60, 84);
+    background-color: rgba(255, 255, 255, 0.296);
 }
 
 #parallax {
     position: relative;
     width: 100%;
-    height: 120vh;
-    background-image: linear-gradient(45deg, 
-    rgb(0, 0, 0), rgba(1, 0, 67, 0.15)),
-    url("https://images.unsplash.com/photo-1514483127413-f72f273478c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    height: 100vh;
+    background-image: linear-gradient(90deg, 
+    rgb(0, 0, 0), rgb(0, 0, 0, .90), rgba(0, 0, 20, 0.5)),
+    url("https://images.unsplash.com/photo-1498805983167-a523078d762c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2111&q=80");
 
     background-repeat: no-repeat;
     transition-duration: 0.1s;
     background-position: center;
-    background-position: 50% 50%;
+    background-size: cover;
   }
 
 /* Classes */
@@ -87,7 +87,6 @@ p {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
 }
 
 .mem-block {
@@ -95,18 +94,26 @@ p {
     padding-bottom: 10px;
 }
 
-.text-block {
-    width: 90%;
-}
 
 /* Property wrappers */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .container {
         height: fit-content;
     }
-    #parallax { 
 
+    .text-block {
+        padding: 20px;
+        width: 410px;
+        transition: 250ms;
+    }
+
+    p {
+        line-height: 40px;
+    }
+
+    #parallax {
+        height: 100%;
     }
 }
 
