@@ -55,6 +55,7 @@ p {
     text-decoration: none;
     border: white 2px solid;
     transition: 250ms;
+    white-space:nowrap;
 }
 
 #button:hover {
