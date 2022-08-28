@@ -46,10 +46,10 @@ p {
 /* IDS */
 
 #button {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-radius: 4px;
     color: white;
     text-decoration: none;
@@ -74,7 +74,7 @@ p {
     background-repeat: no-repeat;
     transition-duration: 0.1s;
     background-position: center;
-    background-size: cover;
+
   }
 
 /* Classes */
@@ -115,18 +115,6 @@ p {
     #parallax { 
         background-image: none;
     }
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 @keyframes fadeInAnimation {
