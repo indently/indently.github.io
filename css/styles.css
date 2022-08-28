@@ -11,8 +11,8 @@ a {
 }
 
 body {
-    background-color: #000;
     margin: 0px;
+    background-color: #111;
 }
 
 hr {
@@ -112,9 +112,8 @@ p {
         line-height: 40px;
         font-size: 16px;
     }
-
-    #parallax {
-        background-size: cover;
+    #parallax { 
+        background-image: none;
     }
 }
 
