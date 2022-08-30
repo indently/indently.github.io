@@ -90,7 +90,7 @@ p {
 
 .card-view {
     background-color: rgba(255, 255, 255, 0.95);
-    padding: 30px 80px 40px 80px; /* top right bottom left */
+    padding: 30px 50px 40px 50px; /* top right bottom left */
     border-bottom: rgba(168, 168, 168, 0.6) 1px solid;
     margin: 0px 0px;
     border-radius: 0px 0px;
@@ -108,7 +108,7 @@ p {
 
 .container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
 
 
@@ -143,6 +143,16 @@ p {
     margin: 16px 0px;
 }
 
+.sample-card {
+    display: none;
+    background-color: white;
+    color: white;
+    height: 300px;
+    width: 200px;
+    border-radius: 6px;
+    margin: 100px 10px 0px 10px;
+
+}
 
 
 @media screen and (max-width: 450px) {
@@ -166,6 +176,11 @@ p {
         border-left: none;
         border-right: none;
         max-width: 100%;
+    }
+
+    .sample-card {
+        visibility:collapse;
+        display: none;
     }
 
     .placeholder-box {
