@@ -134,7 +134,7 @@ p {
 }
 
 .placeholder-box {
-    background-color: rgba(187, 187, 187, 0.638);
+    background-color: rgba(223, 223, 223, 0.638);
     height: 300px;
     width: 400px;
 
@@ -143,6 +143,7 @@ p {
     border-radius: 4px;
     margin: 10px 0px;
     border: none;
+    transition: 1s;
 }
 
 .title-box {
