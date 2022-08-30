@@ -186,17 +186,12 @@ p {
         flex-direction: column;
      }
 
-     .placeholder-box {
-        width: 340px;
-     }
 
     #button {
         font-size: 16px;
     }
 
-    p {
-        width: 340px;
-    }
+
 
 }
 
