@@ -72,8 +72,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     align-items: center;
+
     margin: 16px 0px;
 }
 
@@ -95,8 +95,7 @@ p {
 
 .card-view {
     background-color: rgba(255, 255, 255, 0.95);
-    padding: 30px 50px 40px 50px;
-    /* top right bottom left */
+    padding: 30px 50px 40px 50px; /* top right bottom left */
     border-bottom: rgba(168, 168, 168, 0.6) 1px solid;
     margin: 0px 0px;
     border-radius: 0px 0px;
@@ -104,11 +103,9 @@ p {
 
 .placeholder-box {
     background-color: rgba(223, 223, 223, 0.638);
+    object-fit: cover;
     height: 300px;
     width: 400px;
-
-    object-fit: cover;
-
     border-radius: 4px;
     margin: 10px 0px;
     border: none;
@@ -120,9 +117,9 @@ p {
     background-color: white;
     color: white;
     height: 300px;
-    width: 200px;
+    width: 400px;
     border-radius: 6px;
-    margin: 100px 10px 0px 10px;
+    margin: 20px 20px;
 }
 
 .bottom-card {
