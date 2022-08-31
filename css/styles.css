@@ -28,7 +28,6 @@ line {
 h1 {
     color: rgb(255, 255, 255);
     font-size: 24px;
-
     margin: 0px;
     margin-right: 10px;
 
@@ -41,7 +40,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-h5 { 
+h5 {
     color: rgb(223, 223, 223);
     margin-top: -10px;
     font-weight: 400;
@@ -57,53 +56,25 @@ p {
     margin-bottom: 20px;
 }
 
-/* IDS */
-
-#button {
-    padding: 8px 10px;
-    border-radius: 6px;
-
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border: rgb(0, 0, 0) 2px solid;
-    transition: 250ms;
-    white-space: nowrap;
-}
-
-#button:hover {
-    transition: 250ms;
-    color: rgb(61, 148, 255);
-    border: rgb(61, 148, 255) 2px solid;
-}
-
-#background {
-    background-color: #222;
-}
-
-/* Classes */
-
 .logo {
     height: 40px;
     width: 40px;
     padding: 0px;
 }
 
-.card-view {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 30px 50px 40px 50px; /* top right bottom left */
-    border-bottom: rgba(168, 168, 168, 0.6) 1px solid;
-    margin: 0px 0px;
-    border-radius: 0px 0px;
-}
-
-.top-card {
+#top-bar {
     border-radius: 6px 6px 0px 0px;
+    background-color: #222;
+    padding: 10px;
 }
 
-.bottom-card {
-    border-bottom: none;
-    border-radius: 0px 0px 6px 6px;
-    margin-bottom: 80px;
+.title-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+    margin: 16px 0px;
 }
 
 .container {
@@ -111,10 +82,24 @@ p {
     justify-content: center;
     text-align: center;
 
-
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.content-block {
+    margin: 20px 0px;
+    border: white 3px solid;
+    border-radius: 6px;
+}
+
+.card-view {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 50px 40px 50px;
+    /* top right bottom left */
+    border-bottom: rgba(168, 168, 168, 0.6) 1px solid;
+    margin: 0px 0px;
+    border-radius: 0px 0px;
 }
 
 .placeholder-box {
@@ -129,19 +114,6 @@ p {
     border: none;
 }
 
-.text-block {
-    
-}
-
-.title-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    align-items: center;
-    margin: 16px 0px;
-}
 
 .sample-card {
     display: none;
@@ -151,7 +123,28 @@ p {
     width: 200px;
     border-radius: 6px;
     margin: 100px 10px 0px 10px;
+}
 
+.bottom-card {
+    border-bottom: none;
+}
+
+#footer-text {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+    background-color: #222;
+    border-radius: 0px 0px 6px 6px;
 }
 
 
@@ -161,13 +154,20 @@ p {
         width: 100%;
     }
 
+    #top-bar {
+        border-radius: 0px;
+    }
+
     .container {
         flex-direction: column;
         height: fit-content;
     }
 
-    .text-block {
+    .content-block {
         transition: 250ms;
+        margin: 0px;
+        border: none;
+        border-radius: 0px;
     }
 
     .card-view {
@@ -179,7 +179,7 @@ p {
     }
 
     .sample-card {
-        visibility:collapse;
+        visibility: collapse;
         display: none;
     }
 
@@ -197,7 +197,9 @@ p {
     }
 
 
-
+    .footer {
+        border-radius: 0px;
+    }
 }
 
 @keyframes fadeInAnimation {

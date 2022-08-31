@@ -1,0 +1,16 @@
+#button {
+    padding: 8px 10px;
+    border-radius: 6px;
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: rgb(0, 0, 0) 2px solid;
+    transition: 250ms;
+    white-space: nowrap;
+}
+
+#button:hover {
+    transition: 250ms;
+    color: rgb(61, 148, 255);
+    border: rgb(61, 148, 255) 2px solid;
+}
