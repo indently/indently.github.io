@@ -14,3 +14,20 @@
     color: rgb(61, 148, 255);
     border: rgb(61, 148, 255) 2px solid;
 }
+
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    filter: brightness(50%);
+}
+
+
+@media screen and (max-width: 850px) {
+    #myVideo {
+        display: none;
+     }
+ }
